@@ -7,6 +7,7 @@
   - [Optional Ideas](#optional-ideas)
     - [Template Generator](#template-generator)
     - [Publish?](#publish)
+  - [Useful Plugins](#useful-plugins)
   - [Reference Repos / Articles](#reference-repos--articles)
 
 An example repo where I plan to explore 2 main paths and some other ideas I want to try out.
@@ -52,6 +53,40 @@ Create a generator using whatever template library to create a plugin using my a
 ### Publish?
 I dunno, if the plugin works as I'd like perhaps publish the plugin maybe?
 
+## Useful Plugins
+Where I found them all: [rollup/awesome: ⚡️](https://github.com/rollup/awesome?tab=readme-ov-file)
+
+- https://github.com/developit/rollup-plugin-preserve-shebang
+- https://github.com/rollup/plugins/tree/master/packages/alias
+- https://github.com/rollup/plugins/tree/master/packages/eslint
+- https://github.com/rollup/plugins/tree/master/packages/image
+- https://github.com/rollup/plugins/tree/master/packages/yaml
+  - Interested to see how this works in VSCode
+- https://github.com/rollup/plugins/tree/master/packages/run
+- https://github.com/rollup/plugins/tree/master/packages/replace
+- https://github.com/doesdev/rollup-plugin-analyzer
+- https://github.com/thgh/rollup-plugin-serve
+  - I wonder if this would be like an "app" type of thing 🤔
+- https://github.com/ondras/rollup-plugin-graph
+- https://github.com/victornpb/rollup-plugin-baked-env
+- https://github.com/mentaljam/rollup-plugin-zip
+- https://github.com/djhouseknecht/rollup-plugin-version-injector
+- ]https://github.com/sebastian-software/rollup-plugin-rebase
+- https://github.com/mjeanroy/rollup-plugin-prettier
+- https://github.com/thgh/rollup-plugin-livereload
+- https://github.com/mjeanroy/rollup-plugin-license
+- https://github.com/juliendargelos/rollup-plugin-html-minifier
+- https://github.com/phamann/rollup-plugin-hash
+- https://github.com/vladshcherbin/rollup-plugin-delete
+- https://github.com/TrickyPi/rollup-copy-smartly
+- https://github.com/vladshcherbin/rollup-plugin-copy
+- https://github.com/sheltondong/rollup-plugin-clear
+- https://github.com/pschroen/rollup-plugin-bundleutils
+- https://github.com/yingye/rollup-plugin-banner
+  - Can do with `intro: ''`
+- https://github.com/wessberg/rollup-plugin-ts
+- 
+
 ## Reference Repos / Articles
 - https://github.com/thiswallz/rollup-react-starter-lib-ts
 - https://github.com/rollup/plugins/tree/master/packages/typescript
@@ -68,3 +103,6 @@ I dunno, if the plugin works as I'd like perhaps publish the plugin maybe?
 - https://github.com/repalash/rollup-library-starter
 - https://github.com/remahmoud/rollup-ts-react-lib/blob/main/rollup.config.mjs
 - https://github.com/zollero/rollup-typescript-starter-lib/blob/master/rollup.config.js
+- https://miguelcrespo.co/posts/my-notes-of-how-to-compile-a-typescript-library
+- https://github.com/repalash/rollup-library-starter/blob/master/rollup.config.mjs
+- https://rollupjs.org/configuration-options/#no-side-effects

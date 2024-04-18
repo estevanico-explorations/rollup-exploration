@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+
+    "baseUrl": ".",
+    "paths": {
+      "@first/*": ["./src/folder-1/*"],
+      "@second/*": ["./src/folder-2/*"]
+    },
+
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    
+    "strict": true,
+    
+    // Should be ignored in dev mode but checked 
+    //    1. When commiting, linting etc
+    //    2. Before publish
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+  },
+
+  "include": [
+    "./src/**/*"
+  ],
+  
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".dist",
+  ],
+}
