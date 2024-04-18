@@ -9,6 +9,7 @@
     - [Publish?](#publish)
   - [Useful Plugins](#useful-plugins)
   - [Reference Repos / Articles](#reference-repos--articles)
+  - [TODO](#todo)
 
 An example repo where I plan to explore 2 main paths and some other ideas I want to try out.
 
@@ -106,3 +107,20 @@ Where I found them all: [rollup/awesome: ⚡️](https://github.com/rollup/aweso
 - https://miguelcrespo.co/posts/my-notes-of-how-to-compile-a-typescript-library
 - https://github.com/repalash/rollup-library-starter/blob/master/rollup.config.mjs
 - https://rollupjs.org/configuration-options/#no-side-effects
+
+
+## TODO
+- Production configs
+- development configs
+- Add a banner
+- Support versioning
+- support bin files
+- Figure out what I'd like to do with
+- Write a rollup runner that uses it's own configs and no those stored within the codebase
+- that auto injector plugin
+- a minifier of some sort
+- play more with exported types
+- a special manifest type of thing
+- generator?
+- what types of watch modes are really nessessary?
+- metrics & observability
