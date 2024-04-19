@@ -18,27 +18,27 @@ An example repo where I plan to explore 2 main paths and some other ideas I want
 I'm thinking of this sort of like a template to use to make other `TypeScript` powered libraries using `Rollup`.
 
 #### Expectations
-- Uses path aliases
-- Compilation
-  - Source to single file
-  - Source maps (unless production)
-  - Single type definiation file
-  - Optionally export a shell script alongside source
+- [x] Uses path aliases
+- [ ] Compilation
+  - [x] Source to single file
+  - [x] Source maps (unless production)
+  - [x] Single type definiation file
+  - [ ] Optionally export a shell script alongside source
 - General configurations
-  - Add a `LICENSE` file to header
-  - Remove all comments & `console.log` statements
-  - Handles peer deps
+  - [x] Add a `LICENSE` file to header
+  - [x] Remove all comments & `console.log` statements
+  - [ ] Handles peer deps
 - Outputs
-  - ES
-  - CommonJS
-  - Must test in a different page to confirm
+  - [x] ES
+  - [x] CommonJS
+  - [ ] Must test in a different page to confirm
     - i.e. something in an `app/` directory in a macro repo
-  - Create a secondary package that contains the least amount of stuff in it and compress it to a single file (`zip`)
+  - [ ] Create a secondary package that contains the least amount of stuff in it and compress it to a single file (`zip`)
 - Development
-  - Watches code changes
-    - Without `nodemon`
-- Rollup config that ISN'T IN the source directory
-  - Any config that does exist is merged with the automatically provided config 
+  - [x] Watches code changes
+    - [x] Without `nodemon`
+- [ ] Rollup config that ISN'T IN the source directory
+  - [ ] Any config that does exist is merged with the automatically provided config 
 
 ### Plugin Development
 - Auto generates imports for output
@@ -72,7 +72,7 @@ Where I found them all: [rollup/awesome: ⚡️](https://github.com/rollup/aweso
 - https://github.com/victornpb/rollup-plugin-baked-env
 - https://github.com/mentaljam/rollup-plugin-zip
 - https://github.com/djhouseknecht/rollup-plugin-version-injector
-- ]https://github.com/sebastian-software/rollup-plugin-rebase
+- https://github.com/sebastian-software/rollup-plugin-rebase
 - https://github.com/mjeanroy/rollup-plugin-prettier
 - https://github.com/thgh/rollup-plugin-livereload
 - https://github.com/mjeanroy/rollup-plugin-license
@@ -112,15 +112,13 @@ Where I found them all: [rollup/awesome: ⚡️](https://github.com/rollup/aweso
 ## TODO
 - Production configs
 - development configs
-- Add a banner
-- Support versioning
+- ~~Add a banner~~
+- ~~Support versioning~~
 - support bin files
-- Figure out what I'd like to do with
 - Write a rollup runner that uses it's own configs and no those stored within the codebase
 - that auto injector plugin
 - a minifier of some sort
 - play more with exported types
 - a special manifest type of thing
-- generator?
 - what types of watch modes are really nessessary?
 - metrics & observability

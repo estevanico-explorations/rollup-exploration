@@ -21,3 +21,10 @@ export const esmTypes = {
   file: '.dist/esm/index.d.ts',
   format: 'esm',
 }
+
+export const scripts = {
+  // file: '.dist/bin/script',
+  // format: 'cjs',
+  dir: '.dist/bin',
+  format: 'cjs'
+}
