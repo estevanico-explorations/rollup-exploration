@@ -51,6 +51,17 @@ I'm thinking of this sort of like a template to use to make other `TypeScript` p
 ### Template Generator
 Create a generator using whatever template library to create a plugin using my above configurations & requirements to disk. Think [Yeoman](https://yeoman.io/)
 
+Some interesting packages to look into
+- [Yellicode](https://www.yellicode.com/docs/quickstart/)
+- [Automating boilerplate code generation](https://dev.to/kapantzak/automating-boilerplate-code-generation-with-node-js-and-handlebars-2c09)
+- [Node JS Code Generator](https://dev.to/gokulnathp/boost-your-productivity-with-a-node-js-code-generator-51mk)
+  - [GokulnathP/code-generator](https://github.com/GokulnathP/code-generator)
+- [jondot/hygen](https://github.com/jondot/hygen)
+- [Simple Scaffold](https://chenasraf.github.io/simple-scaffold/) 
+  - [chenasraf/simple-scaffold](https://github.com/chenasraf/simple-scaffold)
+  - Can it do full projects? (multiple pages & directories)
+- [lbagic/scaffold](https://github.com/lbagic/scaffold)
+
 ### Publish?
 I dunno, if the plugin works as I'd like perhaps publish the plugin maybe?
 
